@@ -9,147 +9,179 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <title>THT - Akira</title>
 </head>
-<body style="font-family:'Poppins'">
-    <div align="right">
-        <h4>Raihan Akira Rahmaputra - 105222040</h4>
-        <h5>WEB PORTFOLIO / THT praktikum pemweb</h5>
-    </div>
-
-    <hr>
+<body>
+    <header class="edge_info">
+        <p>Raihan Akira Rahmaputra - 105222040</p>
+    </header>
     
-    <div align="center">
-        <h1>Hello, I'm <span style="color: rgb(5, 48, 141);">Akira</span>!</h1>
-        <img src="./solo.png" width="500" id="solo">
-        <h4 style="margin-bottom: 70px;">Undergraduate student at Pertamina University, major in Computer Science.</h4>
-        <h3 align="center">Please check my socials below!</a></h4>
-            <div align="center">
-                <a href="https://www.instagram.com/raihaan_ar/">
-                    <img width="50" style="margin-left: 5px; margin-right: 5px;" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">
-                </a>
-                <a href="https://github.com/akiraraihaan">
-                    <img width="50" style="border-radius: 8px; margin-left: 5px; margin-right: 5px;" src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png">
-                </a>
-                <a href="https://id.linkedin.com/in/raihan-akira-r">
-                    <img width="53" style="border-radius: 8px; margin-left: 5px; margin-right: 5px;" src="data:image/png;base64,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">
-                </a>
+    <section class="first_section">
+        <div id="container">
+            <div id="main_container">
+                <img src="./img/solo.png" alt="foto akira" id="solo">
+                <i>Raihan Akira<br>Rahmaputra</i>
             </div>
-    </div>
+            <div id="info_parent">
+                <div id="intro">
+                    <h1>Hello, I'm <span>Akira</span>!</h1>
+                    <img src="./img/p1.jpg">
+                </div>
+                <div id="after_intro">
+                    <p>Undergraduate student at <span>Pertamina University</span>, major in <b>Computer Science</b>.</p>
+                    <p>Please check my <span>socials</span> below!</p>
+                    <div id="socials_container">
+                        <a href="https://www.instagram.com/raihaan_ar/">
+                            <img src="./img/instagram.png"/>
+                        </a>
+                        <a href="https://github.com/akiraraihaan">
+                            <img src="./img/github.png"/>
+                        </a>
+                        <a href="https://id.linkedin.com/in/raihan-akira-r">
+                            <img width="53" src="./img/linkedin.png"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div align="center" style="margin-top: 50px;">
-        <i>- a little information about me -</i>
-        <p>I was born in <b>Jakarta</b>, and I'm currently 20 <i>years old</i>. I've been passionate about technology since I was a kid, and <br>now I'm pursuing a degree in <strong>Computer Science</strong>. I'm honing my skills to become a <mark>programmer, designer, and entrepreneur</mark>. <br>I aim to keep growing, aspiring to leadership roles in software engineering as a <strong>fullstack developer</strong>, then becoming a <u>tech lead, tester, project manager</u> or so. <br>My <i><u>experiences</u></i> in certain organization will be detailed below!</p>
-    </div>
+    <section class="second_section">
+        <div class="card">
+            <div>
+                <i>- a little information about me -</i>
+                <p>
+                    I was born in <b>Jakarta</b>, and I'm currently 20 <i>years old</i>. I've been passionate about technology since I was a kid, and now I'm pursuing a degree in <strong>Computer Science</strong>. I'm honing my skills to become a <u>programmer, designer, and entrepreneur</u>. I aim to keep growing, aspiring to leadership roles in software engineering as a <strong>fullstack developer</strong>, then becoming a <u>tech lead, tester, project manager</u> or so. My <i><u>experiences</u></i> in certain organization will be detailed below!
+                </p>
+            </div>
+        </div>
+    </section>
 
-    <div align="center">
-        <table border="4">
-            <tr>
-                <th width="300px">
-                    <p>Instance</p>
-                </th>
-                <th width="300px">Event</th>
-                <th width="300px">
-                    <p>Position</p>
-                </th>
-                <th width="200px">
-                    <p>Period</p>
-                </th>
-            </tr>
-            <tr>
-                <td rowspan="3" align="center">MIRAI UP</td>
-                <td>-</td>
-                <td>Creative Team</td>
-                <td>2023</td>
-            </tr>
-            <tr>
-                <td>Mirai Islamic Festival</td>
-                <td>Creative Team Leader</td>
-                <td>2023</td>
-            </tr>
-            <tr>
-                <td>Islamic Leadership Training</td>
-                <td>Secure team</td>
-                <td>2023</td>
-            </tr>
-            <tr>
-                <td rowspan="4" align="center">HMIK</td>
-                <td>-</td>
-                <td>Academy UP Team</td>
-                <td>2023-2024</td>
-            </tr>
-            <tr>
-                <td>HMIK Fest</td>
-                <td>Event Team</td>
-                <td>2023</td>
-            </tr>
-            <tr>
-                <td>CITE UP 6</td>
-                <td>Event Team</td>
-                <td>2022-2023</td>
-            </tr>
-            <tr>
-                <td>CITE UP 7</td>
-                <td>Project Leader</td>
-                <td>2023-2024</td>
-            </tr>
-            <tr>
-                <td colspan="4" align="center"><b>NULL</b></td>
-            </tr>
-        </table>
+    <section class="third_section">
+        <div align="center">
+            <table border="4">
+                <tr>
+                    <th width="300px">
+                        <p>Instance</p>
+                    </th>
+                    <th width="300px">Event</th>
+                    <th width="300px">
+                        <p>Position</p>
+                    </th>
+                    <th width="200px">
+                        <p>Period</p>
+                    </th>
+                </tr>
+                <tr>
+                    <td rowspan="3" align="center">MIRAI UP</td>
+                    <td>-</td>
+                    <td>Creative Team</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Mirai Islamic Festival</td>
+                    <td>Creative Team Leader</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Islamic Leadership Training</td>
+                    <td>Secure team</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td rowspan="4" align="center">HMIK</td>
+                    <td>-</td>
+                    <td>Academy UP Team</td>
+                    <td>2023-2024</td>
+                </tr>
+                <tr>
+                    <td>HMIK Fest</td>
+                    <td>Event Team</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>CITE UP 6</td>
+                    <td>Event Team</td>
+                    <td>2022-2023</td>
+                </tr>
+                <tr>
+                    <td>CITE UP 7</td>
+                    <td>Project Leader</td>
+                    <td>2023-2024</td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center"><b>NULL</b></td>
+                </tr>
+            </table>
+        </div>
         <br>
         <p>As for my work or internship <i>experiences</i> and tech stack i used to, I have a few <u>projects</u> that you can check them out on my <b>Github</b> @akiraraihaan or just click <a href="https://github.com/akiraraihaan">here.</a></p>
-    </div>
-
-    <hr>
-
-    <div>
-        <h3>More <u>fun facts</u>!</h3>
-        <ul>
-            <li>Currently learning how the world works</li>
-            <li>Not afraid to compete, but forced to accept failure</li>
-            <li>Keep the cool first, save the panic for later</li>
-        </ul>
-    </div>
-
-    <h3>My top 3 programming language</h3>
-    <ol>
-        <li>C++</li>
-        <li>Java</li>
-        <li>Python</li>
-    </ol>
-
-    <blockquote>but the usage is depends on client demand :)</blockquote>
-
-    <hr>
-
-    <h2>Here some hints from my Github stats!</h2>
-
-    <div align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=akiraraihaan&theme=github_dark&hide_border=true&include_all_commits=false&count_private=true">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=akiraraihaan&theme=github_dark&hide_border=true"><br>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akiraraihaan&theme=github_dark&hide_border=true&include_all_commits=false&count_private=true&layout=compact">
-    </div>
-
-    <hr>
-
-    <h3>And these are some insights and quotes from me ~</h3>
-
-    <div style="color: rgb(8, 38, 90);">
-        <div align="center">
-            <p>cara kita <strong>memulai</strong> dan <em>menutup</em> hari akan sangat berpengaruh pada <i>kehidupan</i>.</p>
-            <p>di samping itu, makanan dan minuman yang di<u>konsumsi</u> juga memiliki pengaruh yang <mark>signifikan</mark>.</p>
-        
-            <p>adapun air yang paling baik untuk dikonsumsi adalah air putih murni atau yang biasa dikenal dengan H<sub>2</sub>O.</p>
+    </section>
+    
+        <hr>
+    
+    <section class="fourth_section">
+        <div id="ff_container">
+            <div>
+                <div class="indent">
+                    <h3>More <u>fun facts</u>!</h3>
+                    <ul>
+                        <li>Currently learning how the world works</li>
+                        <li>Not afraid to compete, but forced to accept failure</li>
+                        <li>Keep the cool first, save the panic for later</li>
+                    </ul>
+                </div>
+            
+                <div class="indent">
+                    <h3>My top 3 programming language</h3>
+                    <ol>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ol>
+                </div>
+            
+                <blockquote>but the usage is depends on client demand :)</blockquote>
+            </div>
+            <div class="form">
+                <div>
+                    <form method="post">
+                        <h2 align="center">Isi Data Kalian</h2>
+                        <label>Name: <input type="text" name="name" placeholder="Enter your name"></label><br>
+                        <label for="password">Kata Sandi:<input type="password" id="password" name="password" placeholder="password"></label><br>
+                        <label>Email: <input type="email" name="email" placeholder="Enter your email"></label><br>
+                        <label>Age: <input type="number" name="age" placeholder="Enter your age"></label><br>
+                        <label>Gender:</label>
+                        <input type="radio" id="male" name="gender" value="male"> Laki-laki
+                        <input type="radio" id="female" name="gender" value="female"> Perempuan
+                        <br>
+                        <label>Hobi:</label>
+                        <input type="checkbox" id="bike" name="vehicle" value="bike"> Sepeda
+                        <input type="checkbox" id="car" name="vehicle" value="car"> Mobil
+                        <br>
+                        <label for="cars">Jurusan/prodi:</label>
+                        <select id="jurusan" name="jurusan">
+                            <option value="ilmu komputer">ilmu komputer</option>
+                            <option value="ilmu komunikasi" selected>ilmu komunikasi</option>
+                        </select><br>
+                        <label>Message: <textarea name="message" placeholder="Enter your message"></textarea></label><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
         </div>
         
-        <p>kondisi badan yang sehat akan membantu kita untuk lebih mudah belajar dan berpikir, contohnya saat ingin mencari solusi dari:<blockquote><strong>e<sup>-69</sup></strong> memiliki bentuk lain atau bernilai sama dengan?</blockquote> </p>
     
-        <q>kualitas hidup bersandar pada pola hidup yang sehat dan baik.</q>
+        <hr>
     
-        <p>begitu juga dengan materi koding seperti:</p>
-        <p><code>float phi = 3.14;</code></p>
-        <p><kbd>ctrl + v</kbd> berguna untuk paste</p>
-        <p><samp>Galat</samp> adalah kata lain dari <samp>error</samp></p>
-    </div>
+        <h2>Here some hints from my Github stats!</h2>
+    
+        <div align="center">
+            <img src="https://github-readme-stats.vercel.app/api?username=akiraraihaan&theme=github_dark&hide_border=true&include_all_commits=false&count_private=true">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=akiraraihaan&theme=github_dark&hide_border=true"><br>
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akiraraihaan&theme=github_dark&hide_border=true&include_all_commits=false&count_private=true&layout=compact">
+        </div>
+    </section>
+
+    <hr>
     <br>
     <div align="center">
         <q><i>This world is just temporary.</i></q>
