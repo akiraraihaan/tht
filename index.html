@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>THT - Akira</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
             </div>
             <div id="info_parent">
                 <div id="intro">
-                    <h1>Hello, I'm <span>Akira</span>!</h1>
+                    <h1 class="font-[700]">Hello, I'm <span>Akira</span>!</h1>
                     <img src="./img/p1.jpg">
                 </div>
                 <div id="after_intro">
@@ -46,18 +47,35 @@
 
     <section class="second_section">
         <div class="card">
-            <div>
-                <i>- a little information about me -</i>
+            <div id="left-content">
                 <p>
-                    I was born in <b>Jakarta</b>, and I'm currently 20 <i>years old</i>. I've been passionate about technology since I was a kid, and now I'm pursuing a degree in <strong>Computer Science</strong>. I'm honing my skills to become a <u>programmer, designer, and entrepreneur</u>. I aim to keep growing, aspiring to leadership roles in software engineering as a <strong>fullstack developer</strong>, then becoming a <u>tech lead, tester, project manager</u> or so. My <i><u>experiences</u></i> in certain organization will be detailed below!
+                    I was born in <b>Jakarta</b>, and I'm currently 20 <i>years old</i>. I've been passionate about technology since I was a kid, and now I'm pursuing a degree in <strong>Computer Science</strong>. I'm honing my skills to become a programmer, designer, and entrepreneur. I aim to keep growing, aspiring to leadership roles in software engineering as a <strong>fullstack developer</strong>, then becoming a tech lead, tester, project manager or so. My <i>experiences</i> in certain organization will be detailed below!
                 </p>
+            </div>
+            <div id="right-content">
+                <div class="fact-card">
+                    <h3 class="font-[700] text-[24px]">More <u>fun facts</u>!</h3>
+                    <ul>
+                        <li>- Currently learning how the world works</li>
+                        <li>- Not afraid to compete, but forced to accept failure</li>
+                        <li>- Keep the cool first, save the panic for later</li>
+                    </ul>
+                </div>
+                <div class="fact-card">
+                    <h3 class="font-[700] text-[24px]">My top 3</h3>
+                    <ol>
+                        <li>1. C++</li>
+                        <li>2. Java</li>
+                        <li>3. Python</li>
+                    </ol>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="third_section">
+    <section class="third_section py-[64px]">
         <div align="center">
-            <table border="4">
+            <table border="4" class="">
                 <tr>
                     <th width="300px">
                         <p>Instance</p>
@@ -113,84 +131,23 @@
             </table>
         </div>
         <br>
-        <p>As for my work or internship <i>experiences</i> and tech stack i used to, I have a few <u>projects</u> that you can check them out on my <b>Github</b> @akiraraihaan or just click <a href="https://github.com/akiraraihaan">here.</a></p>
+        <p>As for my work or internship <i>experiences</i> and tech stack i used to, I have a few <u>projects</u> that you can check them out on my <b>Github</b> @akiraraihaan or just click <a href="https://github.com/akiraraihaan" class="font-[700]">here.</a></p>
     </section>
     
         <hr>
     
     <section class="fourth_section">
-        <div id="ff_container">
-            <div>
-                <div class="indent">
-                    <h3>More <u>fun facts</u>!</h3>
-                    <ul>
-                        <li>Currently learning how the world works</li>
-                        <li>Not afraid to compete, but forced to accept failure</li>
-                        <li>Keep the cool first, save the panic for later</li>
-                    </ul>
-                </div>
-            
-                <div class="indent">
-                    <h3>My top 3 programming language</h3>
-                    <ol>
-                        <li>C++</li>
-                        <li>Java</li>
-                        <li>Python</li>
-                    </ol>
-                </div>
-            
-                <blockquote>but the usage is depends on client demand :)</blockquote>
-            </div>
-            <div class="form">
-                <div>
-                    <form method="post">
-                        <h2 align="center">Isi Data Kalian</h2>
-                        <label>Name: <input type="text" name="name" placeholder="Enter your name"></label><br>
-                        <label for="password">Kata Sandi:<input type="password" id="password" name="password" placeholder="password"></label><br>
-                        <label>Email: <input type="email" name="email" placeholder="Enter your email"></label><br>
-                        <label>Age: <input type="number" name="age" placeholder="Enter your age"></label><br>
-                        <label>Gender:</label>
-                        <input type="radio" id="male" name="gender" value="male"> Laki-laki
-                        <input type="radio" id="female" name="gender" value="female"> Perempuan
-                        <br>
-                        <label>Hobi:</label>
-                        <input type="checkbox" id="bike" name="vehicle" value="bike"> Sepeda
-                        <input type="checkbox" id="car" name="vehicle" value="car"> Mobil
-                        <br>
-                        <label for="cars">Jurusan/prodi:</label>
-                        <select id="jurusan" name="jurusan">
-                            <option value="ilmu komputer">ilmu komputer</option>
-                            <option value="ilmu komunikasi" selected>ilmu komunikasi</option>
-                        </select><br>
-                        <label>Message: <textarea name="message" placeholder="Enter your message"></textarea></label><br>
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>
-            </div>
+    
+        <h2 class="font-[800] justify-center text-center text-[24px]">Here some hints from my Github stats!</h2>
+    
+        <div class="stats_container">
+            <img src="https://github-readme-stats.vercel.app/api?username=akiraraihaan&theme=github_dark&hide_border=true&include_all_commits=false&count_private=true" class="m-[12px]">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=akiraraihaan&theme=github_dark&hide_border=true" class="mt-[12px]"><br>
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akiraraihaan&theme=github_dark&hide_border=true&include_all_commits=false&count_private=true&layout=compact" class="mb-[12px]">
         </div>
-        
-    
-        <hr>
-    
-        <h2>Here some hints from my Github stats!</h2>
-    
-        <div align="center">
-            <img src="https://github-readme-stats.vercel.app/api?username=akiraraihaan&theme=github_dark&hide_border=true&include_all_commits=false&count_private=true">
-            <img src="https://github-readme-streak-stats.herokuapp.com/?user=akiraraihaan&theme=github_dark&hide_border=true"><br>
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akiraraihaan&theme=github_dark&hide_border=true&include_all_commits=false&count_private=true&layout=compact">
-        </div>
-        <audio controls>
-            <source src="bekson.mp3" type="audio/mpeg">
-            Browser tidak mendukung.
-        </audio>
     </section>
-
-    <hr>
-    <br>
-
-    <footer align="center">
-        <q><i>This world is just temporary.</i></q>
+    <footer class="bg-[#1F3351] text-[white] h-[70px] text-[24px] font-[600] flex justify-center items-center">
+        <p>Akira &copy;</p>
     </footer>
-    <br><br><hr>
 </body>
 </html>
