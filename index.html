@@ -136,18 +136,54 @@
     
         <hr>
     
-    <section class="fourth_section">
-    
-        <h2 class="font-[800] justify-center text-center text-[24px]">Here some hints from my Github stats!</h2>
-    
-        <div class="stats_container">
-            <img src="https://github-readme-stats.vercel.app/api?username=akiraraihaan&theme=github_dark&hide_border=true&include_all_commits=false&count_private=true" class="m-[12px]">
-            <img src="https://github-readme-streak-stats.herokuapp.com/?user=akiraraihaan&theme=github_dark&hide_border=true" class="mt-[12px]"><br>
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akiraraihaan&theme=github_dark&hide_border=true&include_all_commits=false&count_private=true&layout=compact" class="mb-[12px]">
+    <div class="grid grid-cols-4  m-[56px]">
+        <div class="col-span-3 shadow-2xl rounded-2xl bg-gray-900 m-4 p-12">
+            <h2 class="font-[600] justify-center text-center text-[24px] text-blue-400">Here some hints from my Github stats!</h2>
+        
+            <div class="stats_container">
+                <img src="https://github-readme-stats.vercel.app/api?username=akiraraihaan&theme=github_dark&hide_border=true&include_all_commits=false&count_private=true" class="m-[12px]">
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=akiraraihaan&theme=github_dark&hide_border=true" class="mt-[12px]"><br>
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akiraraihaan&theme=github_dark&hide_border=true&include_all_commits=false&count_private=true&layout=compact" class="mb-[12px]">
+            </div>
         </div>
-    </section>
+        <div class="w-full max-w-md p-8 space-y-6 bg-white shadow-xl rounded-lg h-fit m-4">
+            <h2 class="text-2xl font-bold text-center text-blue-900">Get in Touch<br>with Me</h2>
+            <form onsubmit="sendMessage(event)">
+                <div class="mb-3 flex flex-col">
+                    <label class="text-gray-700" for="name">
+                        Name
+                    </label>
+                    <input type="text" id="name" placeholder="your name" class="form-control border border-black p-2 rounded-lg focus:ring-[1px] focus:ring-blue-500 focus:outline-none hover:ring hover:ring-blue-200 hover:outline-none transition duration-500">
+                </div>
+                <div class="mb-3 flex flex-col">
+                    <label class="text-gray-700" for="email">
+                        Email
+                    </label>
+                    <input type="email" id="email" placeholder="your email address" class="form-control border border-black p-2 rounded-lg focus:ring-[1px] focus:ring-blue-500 focus:outline-none hover:ring hover:ring-blue-200 hover:outline-none transition duration-500">
+                </div>
+                <div class="mb-3 flex flex-col">
+                    <label class="text-gray-700" for="phone">
+                        Phone Number
+                    </label>
+                    <input type="tel" id="phone" placeholder="eg: 6281700081945" class="form-control border border-black p-2 rounded-lg focus:ring-[1px] focus:ring-blue-500 focus:outline-none hover:ring hover:ring-blue-200 hover:outline-none transition duration-500">
+                </div>
+                <div class="mb-3 flex flex-col">
+                    <label class="text-gray-700" for="message">
+                        Message
+                    </label>
+                    <textarea id="message" placeholder="your message" cols="30" rows="3" class="form-control border border-black rounded-lg p-2 focus:ring-[1px] focus:ring-blue-500 focus:outline-none hover:ring hover:ring-blue-200 hover:outline-none transition duration-500"></textarea>
+                </div>
+                <button class="w-full mt-4 py-2 font-semibold bg-blue-600 transition duration-500 text-white rounded-lg hover:bg-blue-800 hover:text-gray-300">
+                    Send Message
+                </button>
+            </form>
+          </div>
+    </div>
+      
     <footer class="bg-[#1F3351] text-[white] h-[70px] text-[24px] font-[600] flex justify-center items-center">
         <p>Akira &copy;</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
